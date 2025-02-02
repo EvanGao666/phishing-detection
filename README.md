@@ -1,3 +1,5 @@
+---
+
 # Phishing Website Detection with Logistic Regression
 
 This project uses machine learning techniques to classify URLs as phishing or legitimate websites. The model is trained using features derived from URLs, such as length, number of dots, and the presence of certain characters. The goal is to identify phishing websites based on these features.
@@ -42,15 +44,14 @@ After downloading, unzip the dataset and place the `phishing.csv` file in a fold
 
 ## How to Run
 
-1. Download the dataset from Kaggle and place the `phishing.csv` file in a folder called `phishing_data/`.
-2. Open Jupyter Notebook by running the following command in your terminal:
+1. Open Jupyter Notebook by running the following command in your terminal:
 
 ```bash
 jupyter notebook
 ```
 
-3. Open the `phishing_detection.ipynb` notebook.
-4. Run the cells in the notebook sequentially to train the model and evaluate its performance.
+2. Open the `phishing_detection.ipynb` notebook.
+3. Run the cells in the notebook sequentially to train the model and evaluate its performance.
 
 ## Script Overview
 
@@ -93,5 +94,3 @@ weighted avg       0.65      0.64      0.64      2000
 -   Integrate with a real-time URL scanner for phishing detection in browsers.
 
 ---
-
-这样，你的 `README` 文档包括了如何配置 Jupyter 环境并使用 Kaggle 数据集。用户可以按照步骤来启动 Jupyter Notebook 并运行你的代码。
