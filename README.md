@@ -28,19 +28,13 @@ If you don't have Jupyter Notebook installed, you can install it with the follow
 pip install notebook
 ```
 
-Then, start Jupyter Notebook with:
-
-```bash
-jupyter notebook
-```
 
 ## Dataset
 
-The dataset used in this project is available on Kaggle. You can download it using the link below:
+The dataset used in this project is available on Kaggle. 
 
 -   [Phishing Dataset for Machine Learning](https://www.kaggle.com/datasets/shashwatwork/phishing-dataset-for-machine-learning)
 
-After downloading, unzip the dataset and place the `phishing.csv` file in a folder called `phishing_data/` within your project directory.
 
 ## How to Run
 
@@ -50,7 +44,7 @@ After downloading, unzip the dataset and place the `phishing.csv` file in a fold
 jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=''
 ```
 
-2. Open the `phishing_detection.ipynb` notebook.
+2. Open the `phishing-detection.ipynb` notebook.
 3. Run the cells in the notebook sequentially to train the model and evaluate its performance.
 
 ## Script Overview
