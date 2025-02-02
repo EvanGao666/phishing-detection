@@ -82,7 +82,7 @@ Example output:
            0       0.62      0.70      0.66       988
            1       0.67      0.58      0.62      1012
 
-   accuracy                           0.64      2000
+   accuracy                            0.64      2000
    macro avg       0.65      0.64      0.64      2000
 weighted avg       0.65      0.64      0.64      2000
 ```
