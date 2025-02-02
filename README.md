@@ -47,7 +47,7 @@ After downloading, unzip the dataset and place the `phishing.csv` file in a fold
 1. Open Jupyter Notebook by running the following command in your terminal:
 
 ```bash
-jupyter notebook
+jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=''
 ```
 
 2. Open the `phishing_detection.ipynb` notebook.
