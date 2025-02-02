@@ -1,7 +1,3 @@
-根据你提供的信息和要求，下面是更新后的 `README` 文档，适用于 `.ipynb` 文件以及 Kaggle 数据集链接，同时包含 Jupyter 配置说明：
-
----
-
 # Phishing Website Detection with Logistic Regression
 
 This project uses machine learning techniques to classify URLs as phishing or legitimate websites. The model is trained using features derived from URLs, such as length, number of dots, and the presence of certain characters. The goal is to identify phishing websites based on these features.
